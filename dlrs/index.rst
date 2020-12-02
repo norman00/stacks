@@ -18,50 +18,119 @@ Overview
    :maxdepth: 1
 
    README.md
-   clearlinux/releasenote.md
    terms_of_use.md
 
-Guides
-******
+DLRS Guide
+**********
 
 .. toctree::
    :maxdepth: 1
 
    dlrs.rst
 
-
-Clear Linux based containers
-****************************
+DLRS with TensorFlow*
+*********************
 
 .. toctree::
    :maxdepth: 1
 
-   clearlinux/README.md
-   clearlinux/ml-compiler/README.md
+   tensorflow/README.md
+
+DLRS with TensorFlow Serving*
+*****************************
+
+.. toctree::
+   :maxdepth: 1
+
+   serving/README.md
+
+
+DLRS with PyTorch*
+******************
+
+.. toctree::
+   :maxdepth: 1
+
+   pytorch/README.md
+
+DLRS ML Compiler
+****************
+
+.. toctree::
+   :maxdepth: 1
+
+   ml-compiler/README.md
+
+
+Previous Releases (deprecated)
+******************************
+
+.. toctree::
+   :maxdepth: 1
+
+Clear Linux OS based containers
+===============================
+
+.. toctree::
+   :maxdepth: 1
+
+   deprecated/clearlinux/README.md
+   deprecated/clearlinux/ml-compiler/README.md
+   deprecated/clearlinux/releasenote.md
+
+PyTorch* versions
+=================
+
+.. toctree::
+   :maxdepth: 1
+
+   deprecated/clearlinux/pytorch/mkl/README.md
+   deprecated/clearlinux/pytorch/mkl/licenses/README.md
+   deprecated/clearlinux/pytorch/oss/README.md
+   deprecated/clearlinux/pytorch/oss/licenses/README.md
+
+
+TensorFlow* versions
+====================
+
+.. toctree::
+   :maxdepth: 1
+
+   deprecated/clearlinux/tensorflow/mkl/README.md
+   deprecated/clearlinux/tensorflow/mkl/licenses/README.md
+   deprecated/clearlinux/tensorflow/mkl/scripts/README.md
+   deprecated/clearlinux/tensorflow/oss/README.md
+   deprecated/clearlinux/tensorflow/oss/licenses/README.md
+   deprecated/clearlinux/tensorflow_2/mkl/README.md
+   deprecated/clearlinux/tensorflow_2/mkl/licenses/README.md
+   deprecated/clearlinux/tensorflow_2/mkl/scripts/README.md
+
+
+Ubuntu* based containers
+========================
+
+.. toctree::
+  :maxdepth: 1
+
+  deprecated/ubuntu/README.md
+
 
 PyTorch versions
 ================
 
 .. toctree::
-   :maxdepth: 1
+  :maxdepth: 1
 
-   clearlinux/pytorch/mkl/README.md
-   clearlinux/pytorch/mkl/licenses/README.md
-   clearlinux/pytorch/oss/README.md
-   clearlinux/pytorch/oss/licenses/README.md
+  deprecated/ubuntu/pytorch/README.md
 
 
 TensorFlow versions
 ===================
 
 .. toctree::
-   :maxdepth: 1
+  :maxdepth: 1
 
-   clearlinux/tensorflow/mkl/README.md
-   clearlinux/tensorflow/mkl/licenses/README.md
-   clearlinux/tensorflow/mkl/scripts/README.md
-   clearlinux/tensorflow/oss/README.md
-   clearlinux/tensorflow/oss/licenses/README.md
-   clearlinux/tensorflow_2/mkl/README.md
-   clearlinux/tensorflow_2/mkl/licenses/README.md
-   clearlinux/tensorflow_2/mkl/scripts/README.md
+  deprecated/ubuntu/tensorflow_2/scripts/Readme.md
+  deprecated/ubuntu/tensorflow_2/README.md
+  deprecated/ubuntu/tensorflow/scripts/Readme.md
+  deprecated/ubuntu/tensorflow/README.md

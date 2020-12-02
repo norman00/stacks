@@ -8,7 +8,7 @@ The High Performance Computing Reference Stack (HPCRS) meets the needs of deploy
 
 .. figure:: ../_figures/hpcrs_single_node.png
    :scale: 90%
-   :alt: High Performance Computeing Reference Stack
+   :alt: High Performance Computing Reference Stack
 
 
 
@@ -30,3 +30,5 @@ Guides
 
       d2s/Readme.md
       docs/FAQ.md
+      docs/hpcrs_tutorial.md
+      
